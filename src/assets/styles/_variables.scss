@@ -10,3 +10,11 @@ $uoc-masterbrand: #73edff;
 $uoc-bg: color.scale($uoc-masterbrand, $lightness: 70%);
 
 $mqMinWidth: 420px;
+
+/*
+  Size Media Queries (min-width)
+*/
+
+$small: 600px;
+$medium: 1024px;
+$large: 1440px;

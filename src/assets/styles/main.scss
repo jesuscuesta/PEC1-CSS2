@@ -10,6 +10,11 @@
 @import "variables";
 
 /**
+ * Import Responsive Mixins
+ */
+@import "mixins/responsive";
+
+/**
  * Import npm dependencies
  * see: https://v2.parceljs.org/features/module-resolution/
  * see commented examples below

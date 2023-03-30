@@ -187,6 +187,20 @@ Elementos que vamos a añadir:
 
 Dado que hemos creado diferentes ficheros para el contenido, hemos creado también nuevos ficheros sass para añadir la maquetación. El ejemplo sería con main.scss. Donde hemos aplicado la metodología BEM con SASS.
 
-El contenido al haber sido maquerado con flex, se adaptará a la mayor parte de tamaños del navegador en ordenador y escritorio.
+El contenido al haber sido maquerado con flex, se adaptará a la mayor parte de tamaños del navegador en ordenador, tablet y movil.
+
+### SASS
+
+Para añadir más contenido con SASS hemos hecho uso de las variables y los mixing.
+
+Hemos creado en el ficero _variables unas propiedades para que se adapte mejor a los diferentes tamaños, teniendo en cuenta
+los Breakponts definidos en Material Design:
+Breakpoints Material Design
+
+- 600px: para pantallas de tamaño small.
+- 1024px: para pantallas de tamaño medium.
+- 1440px: para pantallas de tamaño large.
+
+Posteriomente, hemos creado un Mixin para hacer la web más responsiva y que utilizase estos tamaños.
 
 Todo el css validado con Stylelint.
