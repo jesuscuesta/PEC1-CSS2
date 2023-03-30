@@ -1,43 +1,12 @@
 <!DOCTYPE html>
-
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width" />
-        <link
-            rel="stylesheet"
-            type="text/css"
-            href="./assets/styles/main.scss"
-        />
-        <title>UOC Boilerplate</title>
-    </head>
+    <include src="./views/header.html"></include>
     <body>
-        <header>
-            <h1>Iglesia de San Martín de Tours <i class="fas fa-clock"></i></h1>
+        <header class="header">
+            <h1>Iglesia de San Martín de Tours</h1>
+            <img class="header__image" src="./assets/images/iglesia-externo.jpg" alt="Iglesia de San Martín de Tours" title="Iglesia de San Martín de Tours" />
         </header>
-        <main>
-            <section>
-                <h2>Historia</h2>
-                <p>
-                    La Iglesia de San Martín de Tours fue construida en el siglo
-                    XVI en estilo gótico-renacentista. Fue una de las pocas
-                    iglesias de la Comunidad de Madrid que sobrevivió a la
-                    Guerra Civil Española sin ser destruida.
-                </p>
-            </section>
-            <section>
-                <h2>Arquitectura</h2>
-                <p>
-                    La iglesia cuenta con una nave central, dos laterales y un
-                    amplio coro. Su fachada principal destaca por su portada
-                    renacentista, flanqueada por dos grandes torres cuadradas.
-                    En el interior se pueden apreciar diferentes elementos
-                    decorativos, como el retablo mayor, realizado en madera
-                    tallada y dorada, y varias capillas laterales con pinturas
-                    al fresco.
-                </p>
-            </section>
-        </main>
+        <include src="./views/main.html"></include>
         <include src="./views/footer.html"></include>
         <script type="module" src="./assets/scripts/main.js"></script>
         <!-- do not remove this line! -->

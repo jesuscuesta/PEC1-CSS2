@@ -172,3 +172,19 @@ La url desplegada en Netlify es: [https://vermillion-pothos-c0c066.netlify.app/]
 ## Completar la aplicación
 
 Una vez completado los procesos de github y Netlify, vamos a ampliar la web con más contenido y diseño.
+
+Hemos eliminado gran parte de css que venía en la plantilla, el del footer lo hemos adaptado a la metodología BEM.
+
+Hemos separado el header y el main en dos archivos diferentes, para tener el contenido distribuido.
+
+Elementos que vamos a añadir:
+
+- Imagenes de la iglesia
+
+- Imagenes con diferentes formatos y tamaños, para que se adapten con css y se alineen con flex
+
+- Icono en uno de los títulos
+
+Dado que hemos creado diferentes ficheros para el contenido, hemos creado también nuevos ficheros sass para añadir la maquetación. El ejemplo sería con main.scss. Donde hemos aplicado la metodología BEM con SASS.
+
+Todo el css validado con Stylelint.
