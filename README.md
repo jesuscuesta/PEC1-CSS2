@@ -148,6 +148,27 @@ Además, lo añadiremos al comando de build, para que cuando lanzamos el comando
 He decidio realizar la maquetación *desktop first* para que el diseño se adapte a diferentes tamaños de monitor, pero sin llegar al formato móvil.
 Esta decisión la he tomado, porque para las maquetaciones *mobile first* y que sea adaptativa, tendría que crear un diseño y un contenido adaptado a los dispositivos móviles.
 
+## Github
 
-# INCLUIR LO DE REPOSITORIO GITHUB
-# INCUIR LO DEL nETLIFY
+A través de mi cuenta de Github, he creado un nuevo proyecto y lo he enlazado.
+
+- [La URL de Gitub](https://github.com/)
+- [URL de proyecto creado](https://github.com/jesuscuesta/PEC1-CSS2)
+
+Una vez creado, he borrador la carpeta oculta de .git y he enlazado el proyecto con el creado, con este comando: `git remote add origin https://github.com/jesuscuesta/PEC1-CSS2.git`
+
+## Netlify
+
+Me he logado en la web de [Netlify]([Netlify](https://app.netlify.com/) con mi usuario de github.
+
+Posteriormente he enlazado mi web de github con Netlify, siguiendo este [video](https://www.youtube.com/watch?v=mN9oI98As_4).
+
+Con la opción normal, no me estaba dejando importar el proyecto creado, dado que no lo encontraba en el listado. Con lo que tenido que ampliar los permisos que tenía concedidos a Netlify desde Github. Una vez realizado, podía ver todos los proyectos que tengo en e Github.
+
+Hemos dejado la configuración por defecto, porque el build se realiza con el comando habitual.
+
+La url desplegada en Netlify es: [https://vermillion-pothos-c0c066.netlify.app/](https://vermillion-pothos-c0c066.netlify.app/)
+
+## Completar la aplicación
+
+Una vez completado los procesos de github y Netlify, vamos a ampliar la web con más contenido y diseño.
