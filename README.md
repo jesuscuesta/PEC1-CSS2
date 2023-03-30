@@ -187,4 +187,6 @@ Elementos que vamos a añadir:
 
 Dado que hemos creado diferentes ficheros para el contenido, hemos creado también nuevos ficheros sass para añadir la maquetación. El ejemplo sería con main.scss. Donde hemos aplicado la metodología BEM con SASS.
 
+El contenido al haber sido maquerado con flex, se adaptará a la mayor parte de tamaños del navegador en ordenador y escritorio.
+
 Todo el css validado con Stylelint.
